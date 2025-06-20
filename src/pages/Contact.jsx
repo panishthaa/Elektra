@@ -21,7 +21,7 @@ const Contact = () => {
           </div>
 
           {/* Form Section */}
-          <form className="space-y-6">
+          {/* <form className="space-y-6">
             <div>
               <label className="block text-white mb-1">Your Name</label>
               <input type="text" placeholder="John Doe" className="w-full px-4 py-2 bg-white/20 border border-white/30 text-white rounded-xl placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500" />
@@ -38,10 +38,56 @@ const Contact = () => {
               Send Message 🚀
             </button>
           </form>
+        </div> */
+        }
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            className="space-y-6"
+          >
+            <input type="hidden" name="access_key" value="029c55bf-4765-4e35-ae59-1cd8cd2df877" />
+
+            <div>
+              <label className="block text-white mb-1">Your Name</label>
+              <input
+                type="text"
+                name="name"
+                placeholder="John Doe"
+                required
+                className="w-full px-4 py-2 bg-white/20 border border-white/30 text-white rounded-xl placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+            <div>
+              <label className="block text-white mb-1">Email Address</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="john@example.com"
+                required
+                className="w-full px-4 py-2 bg-white/20 border border-white/30 text-white rounded-xl placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+            <div>
+              <label className="block text-white mb-1">Your Message</label>
+              <textarea
+                rows="4"
+                name="message"
+                placeholder="Type your message..."
+                required
+                className="w-full px-4 py-2 bg-white/20 border border-white/30 text-white rounded-xl placeholder-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              className="w-full bg-gradient-to-r from-red-500 to-purple-500 text-white font-semibold py-2 rounded-xl hover:opacity-90 transition-all duration-300"
+            >
+              Send Message 🚀
+            </button>
+          </form>
+          </div> 
         </div>
       </div>
-    </div>
-  );
+      );
 };
 
-export default Contact;
+      export default Contact;
