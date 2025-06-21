@@ -48,7 +48,7 @@ const Navbar = ({ location,getLocation ,openDropdown,setOpenDropdown  }) => {
         <nav className='flex  items-center gap-7 '>
           <ul className='md:flex gap-7 items-center text-xl font-semibold text-gray-700 hidden'>
             <NavLink to={'/'} className={({ isActive }) => `${isActive ? "border-b-2 border-red-500 transition-all " : "text-black"}cursor-pointer`}> <li>Home</li></NavLink>
-            <NavLink to={'/Products'} className={({ isActive }) => `${isActive ? "border-b-2 transition-all border-red-500" : "text-black"}cursor-pointer`}><li>Products</li></NavLink>
+            <NavLink to={'/Products'} className={({ isActive }) => `${isActive ? "border-b-2  border-red-500 transition-all " : "text-black"}cursor-pointer`}><li>Products</li></NavLink>
             <NavLink to={'/About'} className={({ isActive }) => `${isActive ? "border-b-2 border-red-500 transition-all " : "text-black"}cursor-pointer`}> <li>About</li></NavLink>
             <NavLink to={'/Cart'} className={({ isActive }) => `${isActive ? "border-b-2 border-red-500  transition-all" : "text-black"}cursor-pointer`}><li>Cart</li></NavLink>
             <NavLink to={'/Contact'} className={({ isActive }) => `${isActive ? "border-b-2 border-red-500 transition-all" : "text-black"}cursor-pointer`}><li>Contact</li></NavLink>
