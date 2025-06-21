@@ -112,11 +112,13 @@ const Cart = ({location,getLocation}) => {
                     <div className='flex gap-3'>
                       <input type="text" placeholder="Enter Code" className='p-1 rounded-md w-full'/>
                       <button className='bg-white text-black border-gray-200 px-4 cursor-pointer py-1 rounded-md'>Apply</button>
+                        
+           
 
                     </div>
+                    <button className='bg-red-500 text-white px-3 py-2 rounded-md w-full cursor-pointer mt-3 '>Proceed to Checkout</button>
             </div>
-            <button className='bg-red-500 text-white px-3 py-2 rounded-md w-full cursor-pointer mt-3 '>Proceed to Checkout</button>
-           
+          
             </div>
           </div>
         </div> : <div className='flex flex-col gap-3 justify-center items-center h-[600px'>
