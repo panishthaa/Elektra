@@ -20,6 +20,7 @@
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/panishthaa/Elektra.git
 cd your-repo
 npm install
+npm run dev
