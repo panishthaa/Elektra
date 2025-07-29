@@ -1,4 +1,4 @@
-# React + Vite
+# ELEKTRA 
 🛒 A responsive React + Tailwind CSS e-commerce web app with user authentication, cart persistence, and dynamic product/category routing, featuring location-aware delivery logic
 
 
