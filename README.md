@@ -1,4 +1,5 @@
 # React + Vite
+🛒 A responsive React + Tailwind CSS e-commerce web app with user authentication, cart persistence, and dynamic product/category routing, featuring location-aware delivery logic
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
